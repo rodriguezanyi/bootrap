@@ -1,0 +1,49 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+@import url('https://fonts.googleapis.com/css2?family=Oleo+Script+Swash+Caps&display=swap');
+.logo{
+    width: 150px;
+    padding: 10px 10;
+    justify-content: center;
+}
+.navBar {
+    display: flex;
+    justify-content: center; 
+}
+footer{
+    grid-area: footer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    width: 100%;
+    height: 200px;
+    background-color: cadetblue;
+}
+.final1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-weight: bold;
+}
+/* HISTORIA.HTML*/
+.final-histo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-weight: bold;
+}
+footer .pie{
+    justify-content: center;
+    background-position: center;
+    background-color: bisque;
+    width: 100%;
+    height: auto;
+}
+.conteiner-fluid{
+    justify-content: center;
+    align-items: center;
+}
